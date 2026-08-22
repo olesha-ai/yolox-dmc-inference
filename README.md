@@ -107,7 +107,7 @@ This project references open-source architectures and runtimes under permissive 
 
 ## Distribution & Execution Directory
 
-The pre-compiled binary executable and lightweight model weights (`test_x.onnx` — 9 MB, `test_l.onnx` — 3 MB) are distributed together as a compressed archive under the **Releases** tab. 
+The pre-compiled binary executable and lightweight model weights (`test_x.onnx` — 3 MB, `test_l.onnx` — 4 MB) are distributed together as a compressed archive under the **Releases** tab. 
 
 To run the software, extract the archive and maintain the following directory layout:
 
