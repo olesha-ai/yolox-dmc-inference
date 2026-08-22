@@ -92,6 +92,10 @@ The runtime execution pipeline is fully configured via a local `settings.json` f
   * `"main_tensor_size": 640` / `"refine_tensor_size": 320` — Input matrix scales for primary target interception and structural refinement.
 * **Temporal Validation:**
   * `"part_verdict_collect_ms": 3000` — Temporal validation window (3 seconds) used to accumulate sequential predictions before issuing a final output.
+* **Memory Diagnostics:**
+  * `"memory_diag_enabled": false` — Enforced memory profiling switch. When set to `true`, the pipeline dynamically creates a local `/logs` directory and appends runtime
+    memory consumption data every 15 seconds to trace   and prevent potential memory leaks during long-run execution cycles.
+
 
 ---
 
